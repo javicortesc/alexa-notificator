@@ -53,4 +53,4 @@ The Alexa Notifications System is designed to enable seamless communication betw
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/alexa-notifications-system.git
+   git clone https://github.com/javicortesc/alexa-notifications-system.git
