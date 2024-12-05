@@ -1,0 +1,16 @@
+<!-- templates/registration/login.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Iniciar Sesión</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+</form>
+{% if form.errors %}
+    <div class="alert alert-danger">
+        Error en las credenciales. Por favor, inténtalo nuevamente.
+    </div>
+{% endif %}
+{% endblock %}
